@@ -23,11 +23,25 @@ const style = StyleSheet.create({
   },
   title:{
     alignSelf: 'center',
-    marginTop: 20,
+    marginVertical: 20,
     fontSize: 22,
     color: '#090909',
   },
-  
+  containerMovies: {
+    justifyContent: 'center',
+    alignItems: 'center'
+
+  },
+  listTitle: {
+    color: '#a87a90',
+    fontSize: 16,
+    marginTop: 10,
+  },
+  avatarMovie: {
+    width: 100,
+    height: 100,
+  },
+
 });
 
 
