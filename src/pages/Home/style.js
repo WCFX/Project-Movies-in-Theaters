@@ -29,17 +29,27 @@ const style = StyleSheet.create({
   },
   containerMovies: {
     justifyContent: 'center',
-    alignItems: 'center'
-
+    alignItems: 'center',
+    alignSelf: 'center',
+    width: '70%',
+    borderWidth: 1,
+    borderColor: '#ccc',
+    shadowOpacity: 1.41,
+    shadowRadius: 2.11,
+    elevation: 7,
+    padding: 10,
+    marginVertical: 10,
   },
   listTitle: {
-    color: '#a87a90',
-    fontSize: 16,
+    color: '#000000',
+    fontSize: 22,
     marginTop: 10,
+    padding: 10,
+    textAlign: 'center',
   },
   avatarMovie: {
-    width: 100,
-    height: 100,
+    width: 300,
+    height: 300,
   },
 
 });

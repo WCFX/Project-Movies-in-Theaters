@@ -26,7 +26,7 @@ const Home = () => {
       <FlatList
         data={movies}
         renderItem={({item}) => (
-          <View style={style.containerMovies}>
+          <View style={styles.containerMovies}>
             <Text style={styles.listTitle}>{item.titulo}</Text>
             <Image 
               style={styles.avatarMovie}
