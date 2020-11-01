@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <Home />
-      <StatusBar barStyle="dark-content" backgroundColor="#fff" />
+      <StatusBar barStyle="light-content" backgroundColor="#111" />
     </>
   );
 }
