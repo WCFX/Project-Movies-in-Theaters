@@ -32,9 +32,6 @@ const style = StyleSheet.create({
     alignItems: 'center',
     alignSelf: 'center',
     width: '70%',
-    borderWidth: 1,
-    borderColor: '#1b6365',
-    borderRadius: 8,
     paddingBottom: 10,
     marginVertical: 10,
   },
@@ -46,10 +43,19 @@ const style = StyleSheet.create({
     textAlign: 'center',
   },
   avatarMovie: {
-    width: 300,
-    height: 300,
+    width: 400,
+    height: 400,
   },
-
+  activityIndicatorContainer:{
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  activityIndicatorText: {
+    color: '#FFF',
+    paddingTop: 10,
+    fontSize: 22,
+  }
 });
 
 
